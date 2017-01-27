@@ -1,0 +1,34 @@
+body {
+    font-size: 14px;
+    font-family: "PT Sans Narrow";
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+h2 {
+    font-size: 21px;
+    font-weight: bold;
+}
+
+h3 {
+    line-height: 21px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+p {
+    line-height: 21px;
+}
+
+advantages-1,
+advantages-2 {
+    color: #ffffff;
+}
+
+b {
+    font-size: 30px;
+    line-height: 24px;
+    font-weight: bold;
+    color: #000000;
+}
