@@ -251,11 +251,18 @@ advantages-img2 {
     vertical-align: bottom;
 }
 
+.main-footer {
+  padding-top: 10px;
+  padding-bottom: 40px;
+  min-height: 120px;
+}
+
 .footer-hashtag {
     display: inline-block;
     width: 240px;
-    margin: 0 auto;
-    margin: 0 45px;
+    max-height: 120px;
+    margin: 0 50px;
+    padding-top: 40px;
     vertical-align: middle;
     text-align: center;
     outline: green solid 2px;
@@ -264,7 +271,9 @@ advantages-img2 {
 .footer-social {
     display: inline-block;
     width: 400px;
-    margin: 0 45px;
+    max-height: 120px;
+    margin: 10 50px;
+    padding-top: 40px;
     vertical-align: middle;
     text-align: center;
     outline: green solid 2px;
@@ -273,6 +282,7 @@ advantages-img2 {
 .footer-copyright {
     float: right;
     width: 240px;
+    max-height: 120px;
     vertical-align: middle;
     text-align: center;
     outline: green solid 2px;
