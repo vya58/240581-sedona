@@ -3,36 +3,36 @@
   <head>
     <meta charset="utf-8">
     <title>Жильё в Седоне</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <header class="main-header">
-        <nav class="container navigation">
+            <nav class="container main-navigation clearfix">
                 <div class="logo">
-                    <a href="index.html">
+                    <a>
                         <img src="img/Logo.png" width="138" height="70" alt="Седона">
                     </a>
                 </div>
-                <div class="main-navigation">
-                    <ul>
-                        <li>
-                            <a href="#">Информация</a>
-                        </li>
-                        <li>
-                            <a href="#">Фото и видео</a>
-                        </li>
-                        <li>
-                            <a href="#">Карта штата</a>
-                        </li>
-                        <li>
-                            <a class="active" href="#">Гостинницы</a>
-                        </li>
-                    </ul>
-                </div>
+                <ul>
+                    <li>
+                        <a href="#">Информация</a>
+                    </li>
+                    <li>
+                        <a href="#">Фото и видео</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="#">Карта штата</a>
+                    </li>
+                    <li>
+                        <a href="#">Гостинницы</a>
+                    </li>
+                </ul>
             </nav>
     </header>
     <main class="container">
-        <section class="filter">
+        <section class="filter clearfix">
             <form action="#" method="post">
                 <section class="filter-infrastructure">
                    <h2>Инфраструктура:</h2>
@@ -68,8 +68,9 @@
                         <input type="text" name="price-max" value="До 3000">
                     </div>
                     <input type="range" id="interval-prices" name="interval-prices" value="3000" min="0" max="4000" step="1">
-                </section>
+                
                 <button class="filter-btn">Показать</button>
+                </section>
             </form>
         </section>
         <section class="search-results">
@@ -99,14 +100,20 @@
                 </div>
             </div>
         </section>
-        <section class="proposal">
-            <div>
-                <h2>Amara Resort & Spa</h2>
-                <p>Гостинница</p>
-                <p>От 4000 р.</p>
-                <img src="img/Layer21.jpg" alt="Sedona on the map" width="135" height="90">
-                <a class="more" href="#">Подробнее</a>
-                <a class="reserve" href="#">Забронировать</a>
+        <section class="offers">
+            <div class="proposal">
+               <div class="foto">
+                    <img src="img/Layer21.jpg" alt="Sedona on the map" width="135" height="90">
+                </div>
+                <div class="name">
+                    <h2>Amara Resort & Spa</h2>
+                    <p>Гостинница</p>
+                    <p>От 4000 р.</p>
+                    <div class="link">
+                        <a class="more" href="#">Подробнее</a>
+                        <a class="reserve" href="#">Забронировать</a>
+                    </div>
+                </div>
                 <div class="rating">
                     <div class="rating-icon"><!--Окно отображения рейтинга звездами (Вячеслав Корзун)-->
                     </div>
@@ -116,33 +123,47 @@
                     </div>
                 </div>
             </div>
-            <div>
-                <h2>Amara Resort & Spa</h2>
-                <p>Мотель</p>
-                <p>От 3000 р.</p>
-                <img src="img/Layer89copy.jpg" alt="Desert Quail Inn" width="135" height="90">
-                <a class="more" href="#">Подробнее</a>
-                <a class="reserve" href="#">Забронировать</a>
+            <div class="proposal">
+               <div class="foto">
+                    <img src="img/Layer89copy.jpg" alt="Desert Quail Inn" width="135" height="90">
+                </div>
+                <div class="name">
+                    <h2>Amara Resort & Spa</h2>
+                    <p>Мотель</p>
+                    <p>От 3000 р.</p>
+                    <div class="link">
+                        <a class="more" href="#">Подробнее</a>
+                        <a class="reserve" href="#">Забронировать</a>
+                    </div>
+                </div>
                 <div class="rating">
                     <div class="rating-icon"><!--Окно отображения рейтинга звездами (Вячеслав Корзун)-->
                     </div>
                     <div class="rating-number">
                         <p>Рейтинг: 8,9</p>
+                        <!--Окно отображения рейтинга числом (Вячеслав Корзун)-->
                     </div>
                 </div>
             </div>
-            <div>
-                <h2>Amara Resort & Spa</h2>
-                <p>Апартаменты</p>
-                <p>От 2000 р.</p>
-                <img src="img/Layer22.jpg" alt="Villas at Poco Diablo" width="135" height="90">
-                <a class="more" href="#">Подробнее</a>
-                <a class="reserve" href="#">Забронировать</a>
+            <div class="proposal">
+               <div class="foto">
+                    <img src="img/Layer22.jpg" alt="Villas at Poco Diablo" width="135" height="90">
+                </div>
+                <div class="name">
+                    <h2>Amara Resort & Spa</h2>
+                    <p>Апартаменты</p>
+                    <p>От 2000 р.</p>
+                    <div class="link">
+                        <a class="more" href="#">Подробнее</a>
+                        <a class="reserve" href="#">Забронировать</a>
+                    </div>
+                </div>
                 <div class="rating">
                     <div class="rating-icon"><!--Окно отображения рейтинга звездами (Вячеслав Корзун)-->
                     </div>
                     <div class="rating-number">
                         <p>Рейтинг: 9,2</p>
+                        <!--Окно отображения рейтинга числом (Вячеслав Корзун)-->
                     </div>
                 </div>
             </div>

@@ -1,9 +1,24 @@
+html,
+body {
+  min-width: 1280px;
+  min-height: 2762px;
+  margin: 0;
+  padding: 0;
+}
+
 body {
     font-size: 14px;
     font-family: "PT Sans Narrow";
     line-height: 26px;
     text-transform: uppercase;
     color: #333333;
+}
+
+.clearfix::after {
+  content: "";
+
+  display: table;
+  clear: both;
 }
 
 h2 {
@@ -21,14 +36,257 @@ p {
     line-height: 21px;
 }
 
-advantages-1,
-advantages-2 {
-    color: #ffffff;
-}
-
 b {
     font-size: 30px;
     line-height: 24px;
     font-weight: bold;
     color: #000000;
+}
+
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+    padding: 0 10px;
+    outline: red solid 2px;
+}
+
+.main-header {
+    height: 56px;
+}
+
+.logo {
+    margin: 0 auto;
+    width: 138px;
+    height: 70px;
+    position: relative;
+    z-index: 10;
+}
+
+.main-navigation {
+    margin-bottom: 50px;
+    outline: green solid 2px;
+}
+
+.main-navigation ul  {
+    display: inline-block;
+    width: 350px;
+    outline: green solid 2px;
+}
+
+.main-navigation li  {
+    display: inline-block;
+    width: 110px;
+    outline: black solid 2px;
+}
+
+.main-navigation ul:first-of-type {
+    float: left;
+    margin-top: -50px;
+}
+
+.main-navigation ul:last-of-type {
+    float: right;
+    margin-top: -50px;
+}
+
+.main-navigation li:first-child {
+    float: left;
+}
+
+.main-navigation li:last-child {
+    float: right;
+}
+
+.intro {
+    position: relative;
+    z-index: 3;
+}
+
+.announcement {
+    width: 576px;
+    margin: 0 auto;
+    
+    text-align: center;
+    outline: green solid 2px;
+}
+
+.advantages {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+
+.advantages-1,
+.advantages-2 {
+    width: 400px;
+    height: 260px;
+    background-color: #81b3d2;
+    color: #ffffff;
+}
+
+.advantages-1 p {
+    padding: 0 80px;
+}
+
+.advantages-2 p {
+    padding: 0 70px;
+}
+
+.advantages-img1,
+advantages-img2 {
+    width: 800px;
+    height: 260px;
+}
+
+.offer-choice {
+    width: 400px;
+    height: 330px;
+    text-align: center;
+    box-sizing: border-box;
+    outline: yellow solid 2px;
+}
+
+.offer-choice p {
+    margin: 0 70px;
+}
+
+
+.offer-title {
+    color: #000000;
+}
+
+.advantages-other {
+    width: 400px;
+    height: 256px;
+    outline: green solid 2px;
+}
+
+.searchform {
+    text-align: center;
+    outline: yellow solid 2px;
+}
+
+.searchform-slideout {
+    position: relative;
+    z-index: 5;
+    width: 576px;
+    height: 484px;
+    margin: 0 auto;
+    outline: green solid 2px;
+}
+
+.map {
+    position: relative;
+    z-index: 2;
+    margin-top: -397px;
+    outline: orange solid 2px;
+}
+
+.filter {
+    outline: orange solid 2px;
+}
+
+.filter-infrastructure,
+.filter-property {
+    float: left;
+    width: 200px;
+    vertical-align: middle;
+    outline: green solid 2px;
+}
+
+.filter label,
+.filter button {
+    display: block;
+}
+
+.filter-prices {
+    float: right;
+    vertical-align: top;
+    outline: green solid 2px;
+}
+
+.search-results {
+    outline: green solid 2px;
+}
+
+.search-results > *,
+.search-results > * > *,
+.search-results > * > * > * {
+    display: inline-block;
+    outline: black solid 2px;
+}
+
+.sorting {
+    float: right;
+    width: 40px;
+    height: 30px;
+    outline: green solid 2px;
+}
+
+.offers {
+    outline: blue solid 2px;
+}
+
+.proposal {
+    outline: orange solid 2px;
+}
+
+.foto,
+.name,
+.rating {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.foto {
+    margin-top: 20px;
+}
+
+.name {
+   width: 280px; 
+}
+
+.name p {
+    display: inline-block;
+}
+
+.proposal a {
+    display: block;
+}
+
+.link a {
+    display: inline-block;
+}
+
+.rating {
+    float: right;
+    vertical-align: bottom;
+}
+
+.footer-hashtag {
+    display: inline-block;
+    width: 240px;
+    margin: 0 auto;
+    margin: 0 45px;
+    vertical-align: middle;
+    text-align: center;
+    outline: green solid 2px;
+}
+
+.footer-social {
+    display: inline-block;
+    width: 400px;
+    margin: 0 45px;
+    vertical-align: middle;
+    text-align: center;
+    outline: green solid 2px;
+}
+
+.footer-copyright {
+    float: right;
+    width: 240px;
+    vertical-align: middle;
+    text-align: center;
+    outline: green solid 2px;
 }
