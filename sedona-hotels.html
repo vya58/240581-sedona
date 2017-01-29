@@ -8,11 +8,9 @@
   <body>
     <header class="main-header">
             <nav class="container main-navigation clearfix">
-                <div class="logo">
-                    <a>
-                        <img src="img/Logo.png" width="138" height="70" alt="Седона">
-                    </a>
-                </div>
+                <a class="logo">
+                    <img src="img/Logo.png" width="138" height="70" alt="Седона">
+                 </a>
                 <ul>
                     <li>
                         <a href="#">Информация</a>
@@ -25,15 +23,14 @@
                     <li>
                         <a href="#">Карта штата</a>
                     </li>
-                    <li>
+                    <li class="active">
                         <a href="#">Гостинницы</a>
                     </li>
                 </ul>
             </nav>
-    </header>
+        </header>
     <main class="container">
-        <section class="filter clearfix">
-            <form action="#" method="post">
+            <form class="filter clearfix" action="#" method="post">
                 <section class="filter-infrastructure">
                    <h2>Инфраструктура:</h2>
                     <label>
@@ -72,15 +69,12 @@
                 <button class="filter-btn">Показать</button>
                 </section>
             </form>
-        </section>
         <section class="search-results">
-           <p>Найдено: 3</p>
-           <div class="search-amount"><!--Окно отображения количества найденных предложений (Вячеслав Корзун)-->
-           </div>
+           <p>Найдено:<span>3</span></p>
             <div class="search-btn">
                 <p>Сортировка:</p>
                 <ul>
-                    <li>
+                    <li class="active">
                         <a href="#">По цене</a>
                     </li>
                     <li>
@@ -92,21 +86,15 @@
                 </ul>
             </div>
             <div class="sorting">
-                <div class="sorting-up">
-                    <a href="#"><!--Значек "Вверх" (Вячеслав Корзун)--></a>
-                </div>
-                <div class="sorting-down">
-                    <a href="#"><!--Значек "Вниз" (Вячеслав Корзун)--></a>
-                </div>
+                <a class="sorting-up" href="#"><!--Значек "Вверх" (Вячеслав Корзун)--></a>
+                <a class="sorting-down" href="#"><!--Значек "Вниз" (Вячеслав Корзун)--></a>
             </div>
         </section>
         <section class="offers">
             <div class="proposal">
-               <div class="foto">
-                    <img src="img/Layer21.jpg" alt="Sedona on the map" width="135" height="90">
-                </div>
+                <img class="foto" src="img/Layer21.jpg" alt="Sedona on the map" width="135" height="90">
                 <div class="name">
-                    <h2>Amara Resort & Spa</h2>
+                    <h2>Amara Resort &amp; Spa</h2>
                     <p>Гостинница</p>
                     <p>От 4000 р.</p>
                     <div class="link">
@@ -117,18 +105,13 @@
                 <div class="rating">
                     <div class="rating-icon"><!--Окно отображения рейтинга звездами (Вячеслав Корзун)-->
                     </div>
-                    <div class="rating-number">
-                        <p>Рейтинг: 8,5</p>
-                        <!--Окно отображения рейтинга числом (Вячеслав Корзун)-->
-                    </div>
+                    <p class="rating-number">Рейтинг: 8,5</p>
                 </div>
             </div>
             <div class="proposal">
-               <div class="foto">
-                    <img src="img/Layer89copy.jpg" alt="Desert Quail Inn" width="135" height="90">
-                </div>
+                <img class="foto" src="img/Layer89copy.jpg" alt="Desert Quail Inn" width="135" height="90">
                 <div class="name">
-                    <h2>Amara Resort & Spa</h2>
+                    <h2>Amara Resort &amp; Spa</h2>
                     <p>Мотель</p>
                     <p>От 3000 р.</p>
                     <div class="link">
@@ -139,18 +122,13 @@
                 <div class="rating">
                     <div class="rating-icon"><!--Окно отображения рейтинга звездами (Вячеслав Корзун)-->
                     </div>
-                    <div class="rating-number">
-                        <p>Рейтинг: 8,9</p>
-                        <!--Окно отображения рейтинга числом (Вячеслав Корзун)-->
-                    </div>
+                    <p class="rating-number">Рейтинг: 8,9</p>
                 </div>
             </div>
             <div class="proposal">
-               <div class="foto">
-                    <img src="img/Layer22.jpg" alt="Villas at Poco Diablo" width="135" height="90">
-                </div>
+                <img class="foto" src="img/Layer22.jpg" alt="Villas at Poco Diablo" width="135" height="90">
                 <div class="name">
-                    <h2>Amara Resort & Spa</h2>
+                    <h2>Amara Resort &amp; Spa</h2>
                     <p>Апартаменты</p>
                     <p>От 2000 р.</p>
                     <div class="link">
@@ -161,10 +139,7 @@
                 <div class="rating">
                     <div class="rating-icon"><!--Окно отображения рейтинга звездами (Вячеслав Корзун)-->
                     </div>
-                    <div class="rating-number">
-                        <p>Рейтинг: 9,2</p>
-                        <!--Окно отображения рейтинга числом (Вячеслав Корзун)-->
-                    </div>
+                    <p class="rating-number">Рейтинг: 9,2</p>
                 </div>
             </div>
         </section>
@@ -175,7 +150,6 @@
                 <a href="#">#visitsedona</a>
             </div>
             <section class="footer-social">
-                <p>Давайте дружить!</p>
                 <a class="social-btn social-btn-tw" href="#">Twitter</a>
                 <a class="social-btn social-btn-fb" href="#">Facebook</a>
                 <a class="social-btn social-btn-yt" href="#">YouTube</a>

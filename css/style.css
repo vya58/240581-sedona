@@ -1,7 +1,6 @@
 html,
 body {
   min-width: 1280px;
-  min-height: 2762px;
   margin: 0;
   padding: 0;
 }
@@ -56,7 +55,6 @@ b {
 }
 
 .logo {
-    margin: 0 auto;
     width: 138px;
     height: 70px;
     position: relative;
@@ -64,39 +62,20 @@ b {
 }
 
 .main-navigation {
-    margin-bottom: 50px;
+    text-align: center;
     outline: green solid 2px;
 }
 
-.main-navigation ul  {
-    display: inline-block;
-    width: 350px;
-    outline: green solid 2px;
-}
 
 .main-navigation li  {
     display: inline-block;
-    width: 110px;
+    vertical-align: middle;
+    margin: 0 50px;
+    width: 140px;
+    text-align: center;
     outline: black solid 2px;
 }
 
-.main-navigation ul:first-of-type {
-    float: left;
-    margin-top: -50px;
-}
-
-.main-navigation ul:last-of-type {
-    float: right;
-    margin-top: -50px;
-}
-
-.main-navigation li:first-child {
-    float: left;
-}
-
-.main-navigation li:last-child {
-    float: right;
-}
 
 .intro {
     position: relative;
@@ -106,13 +85,13 @@ b {
 .announcement {
     width: 576px;
     margin: 0 auto;
-    
     text-align: center;
     outline: green solid 2px;
 }
 
 .advantages {
     display: inline-block;
+    margin: 0;
     vertical-align: top;
     text-align: center;
 }
@@ -176,6 +155,10 @@ advantages-img2 {
     outline: green solid 2px;
 }
 
+.searchform-slideout label {
+    display: block;
+}
+
 .map {
     position: relative;
     z-index: 2;
@@ -189,7 +172,7 @@ advantages-img2 {
 
 .filter-infrastructure,
 .filter-property {
-    float: left;
+    display: inline-block;
     width: 200px;
     vertical-align: middle;
     outline: green solid 2px;
@@ -214,6 +197,7 @@ advantages-img2 {
 .search-results > * > *,
 .search-results > * > * > * {
     display: inline-block;
+    margin: 0;
     outline: black solid 2px;
 }
 
@@ -236,6 +220,7 @@ advantages-img2 {
 .name,
 .rating {
     display: inline-block;
+    margin: 0;
     vertical-align: top;
 }
 
@@ -249,6 +234,7 @@ advantages-img2 {
 
 .name p {
     display: inline-block;
+    margin: 0;
 }
 
 .proposal a {
@@ -257,6 +243,7 @@ advantages-img2 {
 
 .link a {
     display: inline-block;
+    margin: 0;
 }
 
 .rating {

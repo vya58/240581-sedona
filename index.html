@@ -8,11 +8,9 @@
     <body>
         <header class="main-header">
             <nav class="container main-navigation clearfix">
-                <div class="logo">
-                    <a>
-                        <img src="img/Logo.png" width="138" height="70" alt="Седона">
-                    </a>
-                </div>
+                <!--<a class="logo">
+                    <img src="img/Logo.png" width="138" height="70" alt="Седона">
+                 </a>-->
                 <ul>
                     <li>
                         <a href="#">Информация</a>
@@ -20,8 +18,11 @@
                     <li>
                         <a href="#">Фото и видео</a>
                     </li>
-                </ul>
-                <ul>
+                    <li class="logo">
+                        <a>
+                            <img src="img/Logo.png" width="138" height="70" alt="Седона">
+                         </a>
+                    </li>
                     <li>
                         <a href="#">Карта штата</a>
                     </li>
@@ -32,9 +33,7 @@
             </nav>
         </header>
     <main class="container clearfix">
-        <div class="intro">
-            <img src="img/Foto1.jpg" alt="Welcome Sedona">
-        </div>
+            <img class="intro" src="img/Foto1.jpg" alt="Welcome Sedona">
         <div class="">
             <h2 class="announcement">Седона — небольшой городок в Аризоне,<br>
             заслуживающий большего!</h2>
@@ -87,31 +86,23 @@
             <b>Заинтересовались?</b>
             <p>Укажите предполагаемые даты поездки,<br>
             и мы покажем Вам лучшие предложения гостинниц в Седоне</p>
+            <input type="button" value="Найти"Поиск гостинницы в Седоне>
             <div class="searchform-slideout">
                <form action="#" method="post">
-                   <button type="button" value="Найти">Поиск гостинницы в Седоне</button>
-                   <div class="date">
                        <label>Дата заезда:
                            <input type="text" name="data-entry" value="24 апреля 2017">
                        </label>
                        <div class="data-icon"><!--Место для иконки календаря--></div>
-                   </div>
-                   <div class="date">
                        <label>Дата выезда:
                            <input type="text" name="data-exit" value="4 июля 2017">
                        </label>
                        <div class="data-icon"><!--Место для иконки календаря--></div>
-                   </div>
-                   <div class="people">
                        <label>Взрослые:
                            <input type="number" name="grown" value="2">
-                       </label>
-                   </div>
-                   <div class="people">   
+                       </label> 
                        <label>Дети:
                            <input type="number" name="children" value="0">
                        </label>
-                   </div>
                    <button type="submit" value="Найти">Найти</button>
                </form>
             </div>
@@ -126,7 +117,6 @@
                 <a href="#">#visitsedona</a>
             </div>
             <section class="footer-social">
-                <p>Давайте дружить!</p>
                 <a class="social-btn social-btn-tw" href="#">Twitter</a>
                 <a class="social-btn social-btn-fb" href="#">Facebook</a>
                 <a class="social-btn social-btn-yt" href="#">YouTube</a>
