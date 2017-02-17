@@ -896,6 +896,16 @@ input[type="checkbox"]:checked:disabled + .checkbox-indicator {
     color: #81b3d2;
 }
 
+.search-btn li a:hover {
+    color: #81b3d2;
+    border-bottom: 1px dotted #81b3d2;
+}
+
+.search-btn li a:active {
+    color: #000000;
+    border-bottom: none;
+}
+
 .search-btn ul {
     display: flex;
     justify-content: space-between;
