@@ -66,10 +66,10 @@ body {
     margin-left: 0;
     margin-right: auto;
     text-align: left;
-    /*z-index: 5;*/
 }
 
 .navigation-item-map {
+    width: 90px;
     margin-left: auto;
     margin-right: 0;
     text-align: left;
@@ -101,19 +101,15 @@ body {
     color: rgba(0, 0, 0, 0.3);
 }
 
-.index-main {
-   min-height: 2586px; 
-}
-
 .intro {
-    width: 768;
+    width: 768px;
     height: 512px;
     margin: 0 auto;
     padding: 0 0;
     background:
         url("../img/welcome-sedona.png"),
         url("../img/background-sedona-768.jpg");
-    background-position: bottom;
+    background-position: center 77px, bottom;
     background-repeat: no-repeat;
     background-size: contain;
     background-origin: border-box;
@@ -401,13 +397,15 @@ body {
     height: 50px;
     margin: 0;
     margin-bottom: 15px;
-    padding-left: 10px;
+    padding-left: 5px;
     vertical-align: middle;
     text-align: left;
+    cursor: pointer;
 }
 
 fieldset .date {
     width: 466px;
+    margin-left: 5px;
 }
 
 fieldset .grown {
@@ -420,7 +418,7 @@ fieldset .children {
 }
 
 .date input {
-    width: 335px;
+    width: 330px;
     height: 35px;
     margin-left: 20px;
     margin-right: 0;
@@ -443,21 +441,24 @@ fieldset .children {
     padding-top: 4px;
 }
 
+.grown label {
+    width: 110px;
+}
+
 .grown input {
-    padding-left: 18px;
-    width: 95px;
+    width: 108px;
     height: 35px;
     margin-top: 2px;
     margin-left: 35px;
     padding-top: 5px;
+    padding-left: 5px;
     background-color: #f2f2f2;
     border: none;
     text-align: center;
 }
 
 .children input {
-    padding-left: 18px;
-    width: 95px;
+    width: 113px;
     height: 35px;
     margin-top: 2px;
     margin-left: 23px;
@@ -474,17 +475,17 @@ fieldset .children {
     height: 21px;
     background-image: url("../img/calendar-icon.png");
     background-repeat: no-repeat;
-    background-position: -67px center;
+    background-position: -66px center;
 }
 
 .data-icon-entry:hover,
 .data-icon-exit:hover {
-    background-position: -5px center;
+    background-position: -4px center;
 }
 
 .data-icon-entry:active,
 .data-icon-exit:active {
-    background-position: -36px center;
+    background-position: -35px center;
 }
 
 .data-icon-entry {
@@ -604,11 +605,11 @@ fieldset .children {
     background-position: top;
 }
 
-.main-header .container {
-    height: 56px;
-}
 
-/* CSS Sedona-hotels */
+
+/* --------------------CSS Sedona-hotels--------------------------- */
+
+
 
 
 .filter {
@@ -658,6 +659,7 @@ fieldset .children {
 
 .checkbox {
     padding-left: 15px;
+    cursor: pointer;
 }
 
 .checkbox-indicator {
@@ -834,16 +836,20 @@ input[type="checkbox"]:checked:disabled + .checkbox-indicator {
     background-color: #ffffff;
 }
 
-.search-results-p {
-    width: 150px;
-    margin-top: 30px;
-    padding-left: 47px;
-}
 .search-results {
     display: flex;
     align-items: stretch;
-    margin-bottom: 8px;
+    max-height: 86px;
+    margin-bottom: 0px;
+    padding-top: 6px;
+    padding-bottom: 6px;
     border-bottom: #e5e5e5 solid 1px;
+}
+
+.search-results-p {
+    width: 150px;
+    margin-top: 24px;
+    padding-left: 47px;
 }
 
 .search-results p {
@@ -861,7 +867,7 @@ input[type="checkbox"]:checked:disabled + .checkbox-indicator {
 
 .search-btn p {
     width: 100px;
-    margin-top: 30px;
+    margin-top: 24px;
     padding-left: 13px;
     padding-top: 5px;
 }
@@ -876,6 +882,7 @@ input[type="checkbox"]:checked:disabled + .checkbox-indicator {
 
 .search-btn li {
     margin: 0;
+    margin-top: 4px;
     padding: 0;
     list-style: none;
 }
@@ -896,7 +903,7 @@ input[type="checkbox"]:checked:disabled + .checkbox-indicator {
     width: 255px;
     margin: 0;
     padding: 0;
-    margin-top: 10px;
+    margin-top: 0px;
     list-style: none;
 }
 
@@ -952,20 +959,26 @@ input[type="checkbox"]:checked:disabled + .checkbox-indicator {
 
 .proposal {
     display: flex;
-    /*justify-content: space-around;*/
     align-items: center;
     width: 768px;
-    height: 150px;
+    height: 140px;
     margin: 0;
     padding: 0;
+    padding-top: 2px;
+    padding-bottom: 8px;
     border-top: #e5e5e5 solid 1px;
     border-bottom: #e5e5e5 solid 1px;
+}
+
+.first {
+    padding-top: 10px;
+    padding-top: 4px;
 }
 
 .foto {
     width: 135px;
     margin: 0;
-    margin-top: 0px;
+    margin-top: 5px;
     margin-left: 47px;
     margin-right: 30px;
 }
@@ -973,17 +986,15 @@ input[type="checkbox"]:checked:disabled + .checkbox-indicator {
 .name {
     display: flex;
     flex-wrap: wrap;
-    align-items: flex-start;
+    align-items: center;
     width: 373px;
-    margin: 0;
-    margin-top: 6px;
-    padding: 0;
-    padding-top: 18px;
+    margin-top: 30px;
+    padding-top: 10px;
 }
 
 .name h2 {
     width: 727px;
-    font-size:: 21px;
+    font-size: 21px;
     line-height: 26px;
     font-weight: bold;
 }
@@ -998,20 +1009,22 @@ input[type="checkbox"]:checked:disabled + .checkbox-indicator {
 
 .name p {
     width: 110px;
-    margin-top: -10px;
+    margin-top: -12px;
     margin-right: 5px;
 }
 
 .link {
     width: 370px;
+    height: 27px;
     min-height: 32px;
-    margin-bottom: 42px;
+    margin-top: -1px;
+    margin-bottom: 52px;
 }
 
 .more {
     display: inline-block;
-    min-width: 93px;
-    height: 24px;
+    min-width: 94px;
+    height: 25px;
     vertical-align: middle;
     text-align: center;
     margin-right: 3px;
@@ -1070,7 +1083,6 @@ input[type="checkbox"]:checked:disabled + .checkbox-indicator {
     margin-left: 18px;
     padding-top: 28px;
     background-color: #ffffff;
-    opacity: 1;
 }
 
 .rating-icon {
@@ -1110,21 +1122,21 @@ input[type="checkbox"]:checked:disabled + .checkbox-indicator {
     background-position: 46px center;
 }
 
-.footer { 
-    border-top: #e5e5e5* solid 1px;
-    background-color: rgba(255, 255, 255, 0.9);
-}
-
 .main-footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-top: 33px; 
+    height: 120px;
+    padding-top: 0px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-top: #e5e5e5 solid 1px;
 }
 
 .footer-hashtag {
     width: 33.3%;
     margin: 0 auto;
+    margin-top: auto;
+    margin-bottom: 47px;
     padding: 0;
     text-align: center;
 }
@@ -1139,7 +1151,7 @@ input[type="checkbox"]:checked:disabled + .checkbox-indicator {
 
 .footer-social {
     width: 33.3%;
-    margin: 0;
+    margin: 0; 
     text-align: center;
 }
 
@@ -1158,25 +1170,32 @@ input[type="checkbox"]:checked:disabled + .checkbox-indicator {
     background-color: #5496bd;
 }
 
+.social-btn {
+    display: inline-block;
+    width: 46px;
+    height: 48px;
+    margin-top: 2px;
+}
+
 .social-btn-tw {
     margin-left: -3px;
     margin-right: 3px;
     background-image: url("../img/social-icon.png");
     background-repeat: no-repeat;
-    background-position: -53px center;
+    background-position: -54px 7px;
 }
 
 .social-btn-fb {
     margin-right: 3px;
     background-image: url("../img/social-icon.png");
     background-repeat: no-repeat;
-    background-position: 7px center;
+    background-position: 8px 4px;
 }
 
 .social-btn-yt {
     background-image: url("../img/social-icon.png");
     background-repeat: no-repeat;
-    background-position: -130px center;
+    background-position: -130px 7px;
 }
 
 .social-btn-tw:active {
@@ -1196,12 +1215,6 @@ input[type="checkbox"]:checked:disabled + .checkbox-indicator {
     text-align: center;
 }
 
-.social-btn {
-    display: inline-block;
-    width: 46px;
-    height: 47px;
-}
-
 .footer-copyright p,
 .footer-copyright a {
     display: inline-block;
@@ -1210,25 +1223,27 @@ input[type="checkbox"]:checked:disabled + .checkbox-indicator {
 }
 
 .footer-copyright p {
-    
+    padding-bottom: 5px;
 }
+
 
 .footer-copyright a {
     width: 113px;
     height: 40px;
     margin-left: 4px;
     margin-top: -1px;
-    background-color: #f9fbf6;
-    opacity: 0.9; 
-    background-image: url("../img/html-academy-black.png");
+    background-color: rgba(255, 255, 255, 0.9);
+    background-image: url("../img/html-academy.png");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: -6px -6px;
 }
 
 .footer-copyright a:hover {
-    background-image: url("../img/html-academy-blue.png");
+    background-image: url("../img/html-academy.png");
+    background-position: -6px -57px;
 }
 
 .footer-copyright a:active {
-    background-image: url("../img/html-academy-gr.png");
+    background-image: url("../img/html-academy.png");
+    background-position: -6px -108px;
 }
