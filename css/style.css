@@ -115,6 +115,10 @@ body {
     background-origin: border-box;
 }
 
+.intro a {
+    cursor: pointer;
+}
+
 .caption {
     width: 676px;
     height: 173px;
