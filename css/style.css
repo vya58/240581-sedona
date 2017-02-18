@@ -113,6 +113,7 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
     background-origin: border-box;
+    background-color: #e3f0f9;
 }
 
 .intro a {
@@ -628,6 +629,7 @@ fieldset .children {
     background-image: url("../img/background-filter.jpg");
     background-position: bottom;
     background-repeat: no-repeat;
+    background-color: #acc7da;
     color: #ffffff;
 }
 
