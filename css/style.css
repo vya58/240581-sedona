@@ -683,16 +683,19 @@ fieldset .children {
     cursor: pointer;
 }
 
-.checkbox-indicator:hover,
-input[type="checkbox"]:checked + .checkbox-indicator {
+.checkbox-indicator:hover {
+    background-position: -5px -101px;
+}
+
+.checkbox input[type="checkbox"]:checked + .checkbox-indicator {
     background-position: -5px -5px;
 }
 
-input[type="checkbox"]:disabled + .checkbox-indicator {
+.checkbox input[type="checkbox"]:disabled + .checkbox-indicator {
     background-position: -5px -69px;
 }
 
-input[type="checkbox"]:checked:disabled + .checkbox-indicator {
+.checkbox input[type="checkbox"]:checked:disabled + .checkbox-indicator {
     background-position: -5px -36px;
 }
 
