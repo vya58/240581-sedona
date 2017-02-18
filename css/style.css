@@ -15,6 +15,7 @@ body {
 }
 
 .main-header {
+    width: 768px;
     margin: 0 auto;
     padding: 0 0;
 }
@@ -31,9 +32,9 @@ body {
 
 
 .logo {
-    position: absolute;
-    top: 0px;
-    left: 565px;
+    position: relative;
+    top: 0;
+    left: 315px;
     width: 138px;
     height: 70px;
     background: url("../img/logo.png");
@@ -43,41 +44,39 @@ body {
 }
 
 .navigation {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
     height: 56px;
+    margin-top: -70px;
     background-color: #ffffff;
 }
 
 .navigation-item {
+    display: inline-block;
+    vertical-align: baseline;
     height: 43px;
+    padding-top: 15px;
 }
 
 .navigation-item-info {
-    width: 20%;
-    margin-left: 6%;
+    width: 150px;
+    margin-left: 47px;
     padding-left: 0px;
     text-align: left;
 }
 
 .navigation-item-foto {
-    width: 100px;
-    margin-left: 0;
-    margin-right: auto;
+    width: 186px;
     text-align: left;
 }
 
 .navigation-item-map {
-    width: 91px;
-    margin-left: auto;
-    margin-right: 0;
-    text-align: left;
+    width: 175px;
+    text-align: right;
 }
 
 .navigation-item-hotel {
-    width: 20%;
-    margin-right: 6%;
+    width: 150px;
+    margin-right: 46px;
+    padding-left: 3px;
     text-align: right;
 }
 
