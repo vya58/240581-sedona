@@ -31,9 +31,9 @@ body {
 
 
 .logo {
-    position: relative;
+    position: absolute;
     top: 0px;
-    left: -6px;
+    left: 565px;
     width: 138px;
     height: 70px;
     background: url("../img/logo.png");
