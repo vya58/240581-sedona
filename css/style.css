@@ -134,7 +134,7 @@ body {
 }
 
 .announcement {
-    margin: 20 0 0 0;
+    margin: 20px 0 0 0;
 }
 
 .caption h2 {
@@ -145,7 +145,7 @@ body {
 }
 
 .announcement p {
-    margin: 18 0 0 0;
+    margin: 18px 0 0 0;
     font-size: 14px;
     line-height: 26px;
     font-weight: normal;
@@ -641,7 +641,7 @@ fieldset .children {
 }
 
 .filter label {
-    font-size: 16;
+    font-size: 14px;
     font-weight: normal;
     line-height: 21px;
 }
