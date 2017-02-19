@@ -9,68 +9,68 @@
     </head>
     <body>
         <header class="main-header">
-                <a class="logo" href="index.html"><img src="img/logo.png" width="138" height="70" alt="City of Seodna"></a>
-                <nav class="navigation container">
-                    <div class="navigation-item navigation-item-info">
-                        <a href="#">Информация</a>
-                    </div>
-                    <div class="navigation-item navigation-item-foto">
-                      <a href="#">Фото и видео</a>
-                    </div>
-                    <div class="navigation-item navigation-item-map">
-                        <a href="#">Карта штата</a>
-                    </div>
-                    <div class="navigation-item navigation-item-hotel active">
-                        <a href="#">Гостиницы</a>
-                    </div>
-                </nav>
+            <a class="logo" href="index.html"><img src="img/logo.png" width="138" height="70" alt="City of Seodna"></a>
+            <nav class="navigation container">
+                <div class="navigation-item navigation-item-info">
+                    <a href="#">Информация</a>
+                </div>
+                <div class="navigation-item navigation-item-foto">
+                    <a href="#">Фото и видео</a>
+                </div>
+                <div class="navigation-item navigation-item-map">
+                    <a href="#">Карта штата</a>
+                </div>
+                <div class="navigation-item navigation-item-hotel active">
+                    <a href="#">Гостиницы</a>
+                </div>
+            </nav>
         </header>
     <main class="container main">
-           <form class="filter" action="#" method="post">
-                <section class="filter-infrastructure">
-                   <h2>Инфраструктура:</h2>
-                    <label class="pool checkbox">
-                        <input type="checkbox" name="pool" checked><span class="checkbox-indicator"></span>Бассейн
+        <form class="filter" action="#" method="post">
+            <section class="filter-infrastructure">
+                <h2>Инфраструктура:</h2>
+                <label class="pool checkbox">
+                    <input type="checkbox" name="pool" checked><span class="checkbox-indicator"></span>Бассейн
+                </label>
+                <label class="parking checkbox">
+                    <input type="checkbox" name="parking"><span class="checkbox-indicator"></span>Парковка
+                </label>
+                <label class="wi-fi checkbox">
+                    <input type="checkbox" name="Wi-Fi"><span class="checkbox-indicator"></span>Wi-Fi
+                </label>
+            </section>
+            <section class="filter-property">
+                <h2>Тип жилья:</h2>
+                <label class="hotel checkbox">
+                    <input type="checkbox" name="hotel" checked><span class="checkbox-indicator"></span>Гостиница
+                </label>
+                <label class="motel checkbox">
+                    <input type="checkbox" name="motel" checked><span class="checkbox-indicator"></span>Мотель
+                </label>
+                <label class="apartments checkbox">
+                    <input type="checkbox" name="apartments" checked><span class="checkbox-indicator"></span>Апартаменты
                     </label>
-                    <label class="parking checkbox">
-                        <input type="checkbox" name="parking"><span class="checkbox-indicator"></span>Парковка
+            </section>
+            <section class="filter-prices">
+                <h2>Стоимость в сутки (р):</h2>
+                <div class="interval-prices">
+                    <label class="price-min">от 
+                        <input type="text" name="price-min" value="0">
                     </label>
-                    <label class="wi-fi checkbox">
-                        <input type="checkbox" name="Wi-Fi"><span class="checkbox-indicator"></span>Wi-Fi
+                    <label class="price-max">до 
+                        <input type="text" name="price-max" value="3000">
                     </label>
-                </section>
-                <section class="filter-property">
-                   <h2>Тип жилья:</h2>
-                   <label class="hotel checkbox">
-                       <input type="checkbox" name="hotel" checked><span class="checkbox-indicator"></span>Гостиница
-                   </label>
-                       <label class="motel checkbox">
-                        <input type="checkbox" name="motel" checked><span class="checkbox-indicator"></span>Мотель
-                    </label>
-                       <label class="apartments checkbox">
-                        <input type="checkbox" name="apartments" checked><span class="checkbox-indicator"></span>Апартаменты
-                    </label>
-                </section>
-                <section class="filter-prices">
-                    <h2>Стоимость в сутки (р):</h2>
-                    <div class="interval-prices">
-                        <label class="price-min">от 
-                            <input type="text" name="price-min" value="0">
-                        </label>
-                        <label class="price-max">до 
-                            <input type="text" name="price-max" value="3000">
-                        </label>
+                </div>
+                <div class="range">
+                    <div class="scale">
+                        <div class="band"></div>
                     </div>
-                    <div class="range">
-                        <div class="scale">
-                            <div class="band"></div>
-                        </div>
-                        <div class="slider slider-min"></div>
-                        <div class="slider slider-max"></div>
-                    </div>
-                    <button class="filter-btn" type="submit">Показать</button>
-                </section>
-            </form>
+                    <div class="slider slider-min"></div>
+                    <div class="slider slider-max"></div>
+                </div>
+                <button class="filter-btn" type="submit">Показать</button>
+            </section>
+        </form>
         <div class="search-results">
             <span class="search-results-p">Найдено: 3</span>
             <div class="search-btn">
@@ -83,7 +83,7 @@
                         <a href="#">По типу</a>
                     </li>
                     <li>
-                        <a href="#">По рейтингу</a>
+                         <a href="#">По рейтингу</a>
                     </li>
                 </ul>
             </div>

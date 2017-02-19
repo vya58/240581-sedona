@@ -375,21 +375,19 @@ body {
 }
 
 .start-search {
-    display: flex;
-    justify-content: center;
+    display: block;
     align-items: center;
     width: 568px;
-    height: 86px;
-    background-color: #766357; 
-}
-
-.start-search a {
+    height: 56px;
+    padding-top: 30px;
+    background-color: #766357;
     text-decoration: none;
     font-size: 21px;
     line-height: 26px;
     font-weight: bold;
     text-transform: uppercase;
     color: #ffffff;
+    cursor: pointer;
 }
 
 .search-hotels {
