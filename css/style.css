@@ -504,10 +504,12 @@ fieldset .children {
     position: absolute;
     width: 22px;
     height: 21px;
+    border: none;
     background-color: #ffffff;
     background-image: url("../img/calendar-icon.png");
     background-repeat: no-repeat;
     background-position: -66px center;
+    cursor: pointer;
 }
 
 .data-icon-entry:hover,
@@ -540,6 +542,7 @@ fieldset .children {
     border-style: none;
     background-color: #f2f2f2;
     outline: none;
+    cursor: pointer;
 }
 
 .grown-select-down:hover,
@@ -618,6 +621,7 @@ fieldset .children {
     font-weight: bold;
     text-transform: uppercase;
     color: #ffffff;
+    cursor: pointer;
 }
 
 .search:hover {
@@ -701,25 +705,29 @@ fieldset .children {
     height: 22px;
     background-image: url(../img/checkbox.png);
     background-repeat: no-repeat;
-    background-position: -5px -101px;
+    background-position: -5px -165px;
     background-color: transparent;
     cursor: pointer;
 }
 
 .checkbox-indicator:hover {
-    background-position: -5px -101px;
+    background-position: -5px -37px;
 }
 
-.checkbox input[type="checkbox"]:checked + .checkbox-indicator {
+.checkbox input[type="checkbox"]:checked:hover + .checkbox-indicator {
     background-position: -5px -5px;
 }
 
+.checkbox input[type="checkbox"]:checked + .checkbox-indicator {
+    background-position: -5px -133px;
+}
+
 .checkbox input[type="checkbox"]:disabled + .checkbox-indicator {
-    background-position: -5px -69px;
+    background-position: -5px -101px;
 }
 
 .checkbox input[type="checkbox"]:checked:disabled + .checkbox-indicator {
-    background-position: -5px -36px;
+    background-position: -5px -69px;
 }
 
 .checkbox input[type="checkbox"] {
@@ -1032,6 +1040,7 @@ fieldset .children {
     font-size: 21px;
     line-height: 26px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .name h2:hover {
