@@ -681,9 +681,9 @@ fieldset .children {
 .filter-property h2,
 .filter-property label {
     display: inline-block;
+    vertical-align: middle;
     width: 153px;
     margin-bottom: 24px;
-    vertical-align: middle;
 }
 
 .checkbox {
@@ -771,11 +771,11 @@ fieldset .children {
 
 .interval-prices label {
     display: inline-block;
+    vertical-align: bottom;
     margin: 0;
     font-size: 14px;
     line-height: 30px;
     color: #ffffff;
-    vertical-align: bottom;
     cursor: pointer;
 }
 
@@ -1230,7 +1230,7 @@ fieldset .children {
     background-image: url("../img/social-icon.png");
     background-repeat: no-repeat;
     background-position: -54px 7px;
-    background-color: rgba(254, 254, 254, 0.9);
+    background-color: #81b3d2;
 }
 
 .social-btn-fb {
@@ -1238,14 +1238,14 @@ fieldset .children {
     background-image: url("../img/social-icon.png");
     background-repeat: no-repeat;
     background-position: 8px 4px;
-    background-color: rgba(2554, 254, 254, 0.9);
+    background-color: #81b3d2;
 }
 
 .social-btn-yt {
     background-image: url("../img/social-icon.png");
     background-repeat: no-repeat;
     background-position: -130px 7px;
-    background-color: rgba(254, 254, 254, 0.9);/*-----------------------------------------*/
+    background-color: #81b3d2;
 }
 
 .social-btn-tw:active {
