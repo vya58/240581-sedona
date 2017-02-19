@@ -6,6 +6,7 @@ body {
 }
 
 body {
+    background-color: #f2f2f2;
     font-family: "PT Sans", "Arial", sans-serif;
     font-size: 14px;
     line-height: 24px;
@@ -20,6 +21,7 @@ body {
     width: 768px;
     margin: 0 auto;
     padding: 0 0;
+    box-shadow: 0px 5px 15px 0px rgba(0, 1, 1, 0.2);
 }
 
 .main-header a {
@@ -35,14 +37,12 @@ body {
 
 .logo {
     position: relative;
-    top: 0;
     left: 315px;
     width: 138px;
     height: 70px;
-    background: url("../img/logo.png");
-    background-repeat: no-repeat;
     align-self: baseline;
     text-align: center;
+    
 }
 
 .navigation {
@@ -61,7 +61,6 @@ body {
 .navigation-item-info {
     width: 150px;
     margin-left: 47px;
-    padding-left: 0px;
     text-align: left;
 }
 
@@ -105,11 +104,15 @@ body {
 /*-----------------------main-------------------*/
 
 
+.index-main,
+.main {
+    box-shadow: 0px 5px 15px 0px rgba(0, 1, 1, 0.2);
+}
+
 .intro {
     width: 768px;
     height: 512px;
     margin: 0 auto;
-    padding: 0 0;
     background:
         url("../img/welcome-sedona.png"),
         url("../img/background-sedona-768.jpg");
@@ -122,9 +125,8 @@ body {
 
 .caption {
     width: 676px;
-    height: 173px;
+    min-height: 173px;
     margin: 0 auto;
-    padding: 0 0;
     padding-top: 38px;
     text-align: center;
 }
@@ -134,10 +136,13 @@ body {
 }
 
 .announcement {
-    margin: 20px 0 0 0;
+    margin: 17px 0 0 0;
 }
 
 .caption h2 {
+    width: 440px;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 21px; 
     line-height: 26px;
     font-weight: bold;
@@ -156,8 +161,7 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 768px;
-    height: 256px;
-    padding: 0;
+    min-height: 256px;
     background-color: #81b3d2;
 }
 
@@ -201,12 +205,10 @@ body {
 .advantages-img1 {
     height: 256px;
     flex-basis: 66.7%;
-    padding: 0;
-    margin: 0;
     background: url("../img/sity-of-sedona.jpg") no-repeat;
     background-position: left;
     background-size: contain;
-    background-color: #ffffff;
+    background-color: #cbc3c7;
     text-align: center;
 }
 
@@ -214,8 +216,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 330px;
-    padding: 0;
+    min-height: 330px;
 }
 
 .offer-choice {
@@ -234,13 +235,16 @@ body {
 }
 
 .offer-choice p {
-    width: 170px;
+    width: 157px;
     margin: 0 auto;
     margin-bottom: auto;
     font-size: 14px;
     line-height: 21px;
     font-weight: normal;
-    
+}
+
+.offer-choice:last-child p {
+    width: 170px;
 }
 
 .offer-choice-icon {
@@ -251,16 +255,19 @@ body {
 }
 
 .icon-house {
+    background-color: #81b3d2;
     background: url("../img/offer-choice-icon.png") no-repeat;
     background-position: left center;
 }
 
 .icon-food {
+    background-color: #81b3d2;
     background: url("../img/offer-choice-icon.png") no-repeat;
     background-position: -255px center;
 }
 
 .icon-souvenirs {
+    background-color: #81b3d2;
     background: url("../img/offer-choice-icon.png") no-repeat;
     background-position: -511px center;
 }
@@ -269,8 +276,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 256px;
-    padding: 0;
+    min-height: 256px;
     background-color: #81b3d2;
 }
 
@@ -279,19 +285,23 @@ body {
     text-align: center;
 }
 
+.advantages-2 h3 {
+    width: 151px;
+}
+
 .advantages-2 .p-bottom {
+    width: 164px;
     font-weight: normal;
 }
 
 .advantages-img2 {
     height: 256px;
     flex-basis: 66.7%;
-    padding: 0;
     margin: 0;
+    background-color: #776d71;
     background-image: url("../img/bridge-of-devil.jpg");
     background-position: center;
     background-size: contain;
-    background-color: #ffffff;
     text-align: center;
 }
 
@@ -299,7 +309,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 256px;
+    min-height: 256px;
     background-color: #eeeeee;
 }
 
@@ -316,24 +326,29 @@ body {
 .advantages-other {
     flex-basis: 33.3%;
     display: flex;
-    height: 256px;
+    min-height: 256px;
     flex-direction: column;
     justify-content: center;
     text-align: center;
 }
 
 .advantages-other h3 {
+    width: 121px;
     margin-top: 48px;
 }
 
 .advantages-other .p-bottom {
+    width: 162px;
     margin-bottom: auto;
+}
+
+.advantages-other:nth-of-type(2) .p-bottom {
+    width: 138px;
 }
 
 .searchform {
     height: 291px;
     margin: 0 auto;
-    padding: 0 0;
     text-align: center;
 }
 
@@ -357,7 +372,6 @@ body {
     top: 33px;
     width: 568px;
     margin: 0 auto;
-    padding: 0 0;
 }
 
 .start-search {
@@ -382,7 +396,6 @@ body {
     width: 568px;
     height: 395px;
     margin: 0 auto;
-    padding: 0 0;
     background-color: #ffffff;
     box-shadow: 0px 7px 15px 0px rgba(0, 1, 1, 0.15);
     font-size: 14px;
@@ -420,7 +433,6 @@ fieldset .grown {
 
 fieldset .children {
     width: 185px;
-    padding-left: 0;
 }
 
 .date input {
@@ -436,6 +448,19 @@ fieldset .children {
     line-height: 26px;
     font-weight: bold;
     text-transform: uppercase;
+}
+
+.date input:hover {
+    background-color: #ebebeb;
+}
+
+.date input:focus {
+    width: 326px;
+    height: 31px;
+    padding-left: 12px;
+    outline: none;
+    border: 2px solid #e5e5e5;
+    background-color: #ffffff;
 }
 
 .date-exit input{
@@ -479,6 +504,7 @@ fieldset .children {
     position: absolute;
     width: 22px;
     height: 21px;
+    background-color: #ffffff;
     background-image: url("../img/calendar-icon.png");
     background-repeat: no-repeat;
     background-position: -66px center;
@@ -513,6 +539,7 @@ fieldset .children {
     height: 15px;
     border-style: none;
     background-color: #f2f2f2;
+    outline: none;
 }
 
 .grown-select-down:hover,
@@ -603,12 +630,12 @@ fieldset .children {
 }
 
 .map {
-    height: 473px;
+    min-height: 593px;
     margin: 0 auto;
     margin-top: 2px;
-    padding: 0 0;
     background-image: url("../img/map.jpg");
     background-position: top;
+    background-color: #cbddaa;
 }
 
 
@@ -625,10 +652,9 @@ fieldset .children {
     width: 768px;
     height: 205px;
     margin: 0 auto;
-    padding: 0;
     padding-top: 13px;
     background-image: url("../img/background-filter.jpg");
-    background-position: bottom;
+    background-position: 50% 28%;
     background-repeat: no-repeat;
     background-color: #acc7da;
     color: #ffffff;
@@ -657,11 +683,7 @@ fieldset .children {
     display: inline-block;
     width: 153px;
     margin-bottom: 24px;
-}
-
-.filter-infrastructure label:nth-last-of-type(2),
-.filter-property label:nth-last-of-type(2) {
-    margin-bottom: 20px;
+    vertical-align: middle;
 }
 
 .checkbox {
@@ -677,10 +699,10 @@ fieldset .children {
     left: -14px;
     width: 26px;
     height: 22px;
-    padding-left: 0px;
     background-image: url(../img/checkbox.png);
     background-repeat: no-repeat;
     background-position: -5px -101px;
+    background-color: transparent;
     cursor: pointer;
 }
 
@@ -706,13 +728,6 @@ fieldset .children {
 
 .filter-property {
     width: 160px;
-    padding-left: 40px;
-}
-
-.filter-property .checkbox-label {
-    background-image: url("../img/checkbox-icon.png");
-    background-repeat: no-repeat;
-    background-position: left top;
     padding-left: 40px;
 }
 
@@ -849,20 +864,19 @@ fieldset .children {
 .search-results {
     display: flex;
     align-items: stretch;
-    max-height: 86px;
+    height: 86px;
     margin-bottom: 0px;
-    padding-top: 6px;
-    padding-bottom: 6px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: #fefefe;
     border-bottom: #e5e5e5 solid 1px;
 }
 
 .search-results-p {
+    display: block;
     width: 150px;
-    margin-top: 24px;
+    margin-top: 30px;
     padding-left: 47px;
-}
-
-.search-results p {
     font-size: 21px;
     line-height: 26px;
     font-weight: bold;
@@ -875,14 +889,15 @@ fieldset .children {
     margin: 0;
 }
 
-.search-btn p {
+.search-btn span {
+    display: block;
     width: 100px;
-    margin-top: 24px;
+    margin-top: 30px;
     padding-left: 13px;
     padding-top: 5px;
 }
 
-.search-btn p,
+.search-btn span,
 .search-btn a {
     font-size: 12px;
     line-height: 18px;
@@ -892,8 +907,6 @@ fieldset .children {
 
 .search-btn li {
     margin: 0;
-    margin-top: 4px;
-    padding: 0;
     list-style: none;
 }
 
@@ -923,7 +936,6 @@ fieldset .children {
     width: 255px;
     margin: 0;
     padding: 0;
-    margin-top: 0px;
     list-style: none;
 }
 
@@ -944,7 +956,6 @@ fieldset .children {
     width: 110px;
     margin: 0;
     margin-left: auto;
-    padding-top: 8px;
 }
 
 .sorting a {
@@ -957,6 +968,7 @@ fieldset .children {
     background-image: url(../img/up.png);
     background-repeat: no-repeat;
     background-position: -5px -45px;
+    background-color: #ffffff;
 }
 
 .sorting a:hover {
@@ -971,6 +983,7 @@ fieldset .children {
     background-image: url(../img/down.png);
     background-repeat: no-repeat;
     background-position: -5px -45px;
+    background-color: #ffffff;
 }
 
 .sorting .active {
@@ -983,16 +996,19 @@ fieldset .children {
     width: 768px;
     height: 140px;
     margin: 0;
-    padding: 0;
     padding-top: 2px;
     padding-bottom: 8px;
+    background-color: #fefefe;
     border-top: #e5e5e5 solid 1px;
     border-bottom: #e5e5e5 solid 1px;
 }
 
+.proposal:last-of-type {
+    margin-bottom: 120px;
+}
+
 .first {
-    padding-top: 10px;
-    padding-top: 4px;
+    padding-top: 2px;
 }
 
 .foto {
@@ -1008,8 +1024,7 @@ fieldset .children {
     flex-wrap: wrap;
     align-items: center;
     width: 373px;
-    margin-top: 30px;
-    padding-top: 10px;
+    margin-top: 37px;
 }
 
 .name h2 {
@@ -1027,17 +1042,21 @@ fieldset .children {
     color: rgba(0, 0, 0, 0.3);
 }
 
-.name p {
+.name span {
+    display: block;
     width: 110px;
-    margin-top: -12px;
+    margin-top: -10px;
     margin-right: 5px;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: normal;
 }
 
 .link {
     width: 370px;
     height: 27px;
     min-height: 32px;
-    margin-top: -1px;
+    margin-top: 15px;
     margin-bottom: 52px;
 }
 
@@ -1101,7 +1120,7 @@ fieldset .children {
     align-self: stretch;
     margin: 0;
     margin-left: 18px;
-    padding-top: 28px;
+    padding-top: 25px;
     background-color: #ffffff;
 }
 
@@ -1112,11 +1131,11 @@ fieldset .children {
 }
 
 .rating-number {
+    display: block;
     width: 112px;
     height: 23px;
-    margin-top: 45px;
+    margin-top: 50px;
     margin-left: 10px;
-    padding-top: 4px;
     text-align: center;
     font-size: 14px;
     line-height: 21px;
@@ -1128,18 +1147,21 @@ fieldset .children {
     background-image: url(../img/stars.png);
     background-repeat: no-repeat;
     background-position: center;
+    background-color: #ffffff;
 }
 
 .three {
     background-image: url(../img/stars.png);
     background-repeat: no-repeat;
     background-position: 23px center;
+    background-color: #ffffff;
 }
 
 .two {
     background-image: url(../img/stars.png);
     background-repeat: no-repeat;
     background-position: 46px center;
+    background-color: #ffffff;
 }
 
 /*-------------------------footer-------------------------*/
@@ -1150,9 +1172,11 @@ fieldset .children {
     justify-content: space-around;
     align-items: center;
     height: 120px;
-    padding-top: 0px;
-    background-color: rgba(255, 255, 255, 0.9);
+    margin-top: -120px;
+    background-color: rgba(254, 254, 254, 0.9);
+    box-shadow: 0px 5px 15px 0px rgba(0, 1, 1, 0.2);
     border-top: #e5e5e5 solid 1px;
+    
 }
 
 .footer-hashtag {
@@ -1160,7 +1184,7 @@ fieldset .children {
     margin: 0 auto;
     margin-top: auto;
     margin-bottom: 47px;
-    padding: 0;
+    background-color: rgba(254, 254, 254, 0.9);
     text-align: center;
 }
 
@@ -1195,9 +1219,9 @@ fieldset .children {
 
 .social-btn {
     display: inline-block;
+    vertical-align: middle;
     width: 46px;
     height: 48px;
-    margin-top: 2px;
 }
 
 .social-btn-tw {
@@ -1206,6 +1230,7 @@ fieldset .children {
     background-image: url("../img/social-icon.png");
     background-repeat: no-repeat;
     background-position: -54px 7px;
+    background-color: rgba(254, 254, 254, 0.9);
 }
 
 .social-btn-fb {
@@ -1213,12 +1238,14 @@ fieldset .children {
     background-image: url("../img/social-icon.png");
     background-repeat: no-repeat;
     background-position: 8px 4px;
+    background-color: rgba(2554, 254, 254, 0.9);
 }
 
 .social-btn-yt {
     background-image: url("../img/social-icon.png");
     background-repeat: no-repeat;
     background-position: -130px 7px;
+    background-color: rgba(254, 254, 254, 0.9);/*-----------------------------------------*/
 }
 
 .social-btn-tw:active {
@@ -1255,10 +1282,10 @@ fieldset .children {
     height: 40px;
     margin-left: 4px;
     margin-top: -1px;
-    background-color: rgba(255, 255, 255, 0.9);
     background-image: url("../img/html-academy.png");
     background-repeat: no-repeat;
     background-position: -6px -6px;
+    background-color: rgba(254, 254, 254, 0.9);
 }
 
 .footer-copyright a:hover {
