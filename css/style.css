@@ -401,6 +401,11 @@ body {
     font-size: 14px;
     line-height: 26px;
     font-weight: bold;
+    display: block;
+}
+
+.search-hotels-show {
+    display: none;
 }
 
 .search-hotels fieldset {
