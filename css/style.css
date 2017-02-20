@@ -42,7 +42,6 @@ body {
     height: 70px;
     align-self: baseline;
     text-align: center;
-    
 }
 
 .navigation {
@@ -255,21 +254,21 @@ body {
 }
 
 .icon-house {
-    background-color: #81b3d2;
     background: url("../img/offer-choice-icon.png") no-repeat;
     background-position: left center;
+    background-color: #ffffff;
 }
 
 .icon-food {
-    background-color: #81b3d2;
     background: url("../img/offer-choice-icon.png") no-repeat;
     background-position: -255px center;
+    background-color: #ffffff;
 }
 
 .icon-souvenirs {
-    background-color: #81b3d2;
     background: url("../img/offer-choice-icon.png") no-repeat;
     background-position: -511px center;
+    background-color: #ffffff;
 }
 
 .presentation-3 {
@@ -298,10 +297,10 @@ body {
     height: 256px;
     flex-basis: 66.7%;
     margin: 0;
-    background-color: #776d71;
     background-image: url("../img/bridge-of-devil.jpg");
     background-position: center;
     background-size: contain;
+    background-color: #776d71;
     text-align: center;
 }
 
@@ -508,10 +507,10 @@ fieldset .children {
     width: 22px;
     height: 21px;
     border: none;
-    background-color: #ffffff;
     background-image: url("../img/calendar-icon.png");
     background-repeat: no-repeat;
     background-position: -66px center;
+    background-color: #ffffff;
     cursor: pointer;
 }
 
@@ -1261,15 +1260,15 @@ fieldset .children {
 }
 
 .social-btn-tw:active {
-    background-position: -91px center;
+    background-position: -91px 7px;
 }
 
 .social-btn-fb:active {
-    background-position: -22px center;
+    background-position: -22px 4px;
 }
 
 .social-btn-yt:active {
-    background-position: -170px center;
+    background-position: -170px 7px;
 }
 
 .footer-copyright {
