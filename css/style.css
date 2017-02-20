@@ -204,7 +204,8 @@ body {
 .advantages-img1 {
     height: 256px;
     flex-basis: 66.7%;
-    background: url("../img/sity-of-sedona.jpg") no-repeat;
+    background-image: url("../img/sity-of-sedona.jpg");
+    background-repeat: no-repeat;
     background-position: left;
     background-size: contain;
     background-color: #cbc3c7;
@@ -229,7 +230,7 @@ body {
 }
 
 .offer-choice h3 {
-    padding-top: 23px;
+    padding-top: 20px;
     color: #000000;
 }
 
@@ -248,27 +249,30 @@ body {
 
 .offer-choice-icon {
     width: 78px;
-    height: 72px;
+    height: 75px;
     margin: 0 auto;
-    margin-top: auto;
+    margin-top: 58px;
 }
 
 .icon-house {
-    background: url("../img/offer-choice-icon.png") no-repeat;
+    background-image: url("../img/offer-choice-icon.png");
+    background-repeat: no-repeat;
     background-position: left center;
-    background-color: #ffffff;
+    background-color: #f2f2f2;
 }
 
 .icon-food {
-    background: url("../img/offer-choice-icon.png") no-repeat;
+    background-image: url("../img/offer-choice-icon.png");
+    background-repeat: no-repeat;
     background-position: -255px center;
-    background-color: #ffffff;
+    background-color: #f2f2f2;
 }
 
 .icon-souvenirs {
-    background: url("../img/offer-choice-icon.png") no-repeat;
+    background-image: url("../img/offer-choice-icon.png");
+    background-repeat: no-repeat;
     background-position: -511px center;
-    background-color: #ffffff;
+    background-color: #f2f2f2;
 }
 
 .presentation-3 {
@@ -298,6 +302,7 @@ body {
     flex-basis: 66.7%;
     margin: 0;
     background-image: url("../img/bridge-of-devil.jpg");
+    background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
     background-color: #776d71;
@@ -368,7 +373,7 @@ body {
 
 .searchform-slideout {
     position: relative;
-    top: 33px;
+    top: 34px;
     width: 568px;
     margin: 0 auto;
 }
@@ -510,7 +515,7 @@ fieldset .children {
     background-image: url("../img/calendar-icon.png");
     background-repeat: no-repeat;
     background-position: -66px center;
-    background-color: #ffffff;
+    background-color: #f2f2f2;
     cursor: pointer;
 }
 
@@ -637,6 +642,7 @@ fieldset .children {
 
 .map {
     background-image: url("../img/map.jpg");/*На случай, если www.google.com/maps не доступен*/
+    background-repeat: no-repeat;
     background-position: top;
     background-color: #cbddaa;
     min-height: 593px;
