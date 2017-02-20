@@ -390,6 +390,7 @@ body {
 }
 
 .search-hotels {
+    display: block;
     width: 568px;
     height: 395px;
     margin: 0 auto;
@@ -398,7 +399,6 @@ body {
     font-size: 14px;
     line-height: 26px;
     font-weight: bold;
-    display: block;
 }
 
 .search-hotels-show {
@@ -616,8 +616,8 @@ fieldset .children {
     width: 458px;
     height: 58px;
     margin-top: 30px;
-    border: none;
     background-color: #81b3d2;
+    border: none;
     font-size: 21px;
     line-height: 26px;
     font-weight: bold;
@@ -636,12 +636,12 @@ fieldset .children {
 }
 
 .map {
+    background-image: url("../img/map.jpg");/*На случай, если www.google.com/maps не доступен*/
+    background-position: top;
+    background-color: #cbddaa;
     min-height: 593px;
     margin: 0 auto;
     margin-top: 2px;
-    background-image: url("../img/map.jpg");
-    background-position: top;
-    background-color: #cbddaa;
 }
 
 
@@ -1182,12 +1182,13 @@ fieldset .children {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    position: relative;
     height: 120px;
     margin-top: -120px;
     background-color: rgba(254, 254, 254, 0.9);
     box-shadow: 0px 5px 15px 0px rgba(0, 1, 1, 0.2);
     border-top: #e5e5e5 solid 1px;
-    
+    z-index: 3;
 }
 
 .footer-hashtag {
